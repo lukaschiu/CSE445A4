@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Root element name is "NationalPark"-->
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+
+    <NationalPark Rating="4.8">
+        <Name>Yosemite National Park</Name>
+        <Phone>209-372-0200</Phone>
+        <Address NearestAirport="Fresno Yosemite International">
+            <Number>9035</Number>
+            <Street>Village Drive</Street>
+            <City>Yosemite Valley</City>
+            <State>CA</State>
+            <Zip>95389</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+        <Name>Zion National Park</Name>
+        <Phone>435-772-3256</Phone>
+        <!--Address element missing closing tag-->
+        <Address NearestAirport="St. George Regional">
+            <Number>1</Number>
+            <Street>Zion Park Boulevard</Street>
+            <City>Springdale</City>
+            <State>UT</State>
+            <Zip>84767</Zip>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+        <Name>Grand Canyon</Name>
+        <Phone>928-638-7888</Phone>
+        <Address NearestAirport="Flagstaff Pulliam">
+            <Number>8</Number>
+            <Street>S Entrance Road</Street>
+            <City>Grand Canyon Village</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.9">
+        <Name>Badlands National Park</Name>
+        <!--Phone Number Missing-->
+        <Address NearestAirport="Rapid City Regional">
+            <Number>25216</Number>
+            <Street>Ben Reifel Road</Street>
+            <City>Interior</City>
+            <State>SD</State>
+            <Zip>57750</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+        <Name>Big Bend National Park</Name>
+        <Phone>432-477-1158</Phone>
+        <Phone>432-477-2251</Phone>
+        <Address NearestAirport="El Paso International">
+            <Number>1</Number>
+            <Street>Alsate Drive</Street>
+            <City>Big Bend National Park</City>
+            <State>TX</State>
+            <Zip>79834</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.9">
+        <Name>Crater Lake National Park</Name>
+        <Phone>541-594-3000</Phone>
+        <!--Required attribute (nearest airport missing)-->
+        <Address>
+            <Number>100</Number>
+            <Street>Munson Valley Road</Street>
+            <City>Crater Lake</City>
+            <State>OR</State>
+            <Zip>97604</Zip>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark Rating="4.6">
+        <Name>Everglades National Park</Name>
+        <Phone>305-242-7700</Phone>
+        <Address NearestAirport="Miami International">
+            <Number>40001</Number>
+            <Street>State Road 9336</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33034</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+        <!-- Two names provided for one of the national park-->
+        <Name>Kings Canyon National Park</Name>
+        <Name>Denali National Park</Name>
+        <Phone>559-565-3341</Phone>
+        <Address NearestAirport="Fresno Yosemite International">
+            <Number>83918</Number>
+            <Street>CA-180</Street>
+            <City>Grant Grove Village</City>
+            <State>CA</State>
+            <Zip>93633</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.9">
+        <Name>Mount Ranier National Park</Name>
+        <Phone>360-569-2211</Phone>
+        <Address NearestAirport="Seattle-Tacoma International">
+            <Number>52415</Number>
+            <Street>Paradise Valley Road E</Street>
+            <City>Ashford</City>
+            <State>WA</State>
+            <Zip>98304</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+        <Name>Saguro National Park</Name>
+        <Phone>520-733-5153</Phone>
+        <Address NearestAirport="Tucson International">
+            <Number>3963</Number>
+            <Street>S Old Spanish Trail</Street>
+            <City>Tucson</City>
+            <State>AZ</State>
+            <Zip>85730</Zip>
+        </Address>
+    </NationalPark>
+
+</NationalPark>
