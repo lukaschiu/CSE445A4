@@ -17,11 +17,11 @@
                                 <xs:complexType>
                                     
                                     <xs:sequence>
-                                        <xs:element name="Number" type="xs:positiveInteger"/>
+                                        <xs:element name="Number" type="xs:string"/>
                                         <xs:element name="Street" type="xs:string"/>
                                         <xs:element name="City" type="xs:string"/>
                                         <xs:element name="State" type="xs:string"/>
-                                        <xs:element name="Zip" type="xs:positiveInteger"/>
+                                        <xs:element name="Zip" type="xs:string"/>
                                     </xs:sequence>
                                     <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 
