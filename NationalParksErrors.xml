@@ -126,5 +126,18 @@
             <Zip>85730</Zip>
         </Address>
     </NationalPark>
-
+    
+    <NationalPark Rating="4.9">
+        <Name>Great Smoky Mountains National Park</Name>
+        <Phone>865-436-1200</Phone>
+        <Phone>828-497-1904</Phone>
+        <Address NearestAirport="McGhee Tyson">
+            <Number>1194</Number>
+            <Street>Newfound Gap Road</Street>
+            <City>Cherokee</City>
+            <State>NC</State>
+            <Zip>28719</Zip>
+        </Address>
+    </NationalPark>
+    
 </NationalPark>
