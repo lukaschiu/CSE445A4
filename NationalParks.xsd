@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" targetNamespace="https://lukaschiu.github.io/CSE445A4/NationalParks.xsd">
     <!--National Parks Root Element-->
     <xs:element name="NationalParks">
         <xs:complexType>

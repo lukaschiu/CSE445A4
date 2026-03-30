@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Root element name is "NationalPark"-->
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://lukaschiu.github.io/CSE445A4/NationalParks.xsd">
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lukaschiu.github.io/CSE445A4/NationalParks.xsd">
 
     <NationalPark Rating="4.8">
         <Name>Yosemite National Park</Name>
